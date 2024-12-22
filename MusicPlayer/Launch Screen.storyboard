@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QOv-U5-lQr">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="app_logo" translatesAutoresizingMaskIntoConstraints="NO" id="fIX-OB-6Fe">
+                                        <rect key="frame" x="127.66666666666667" y="343.33333333333331" width="137.66666666666663" height="165.33333333333331"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="fIX-OB-6Fe" secondAttribute="height" multiplier="1:1.2" id="bff-U3-trY"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.094117647058823528" green="0.10588235294117647" blue="0.17254901960784313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="fIX-OB-6Fe" firstAttribute="centerY" secondItem="QOv-U5-lQr" secondAttribute="centerY" id="FEh-Fe-SA2"/>
+                                    <constraint firstItem="fIX-OB-6Fe" firstAttribute="width" secondItem="QOv-U5-lQr" secondAttribute="width" multiplier="0.35" id="Gik-2w-GRM"/>
+                                    <constraint firstItem="fIX-OB-6Fe" firstAttribute="centerX" secondItem="QOv-U5-lQr" secondAttribute="centerX" id="cvK-gO-AJa"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="QOv-U5-lQr" secondAttribute="bottom" id="MRA-aG-23d"/>
+                            <constraint firstItem="QOv-U5-lQr" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" id="McK-ay-Y1P"/>
+                            <constraint firstItem="QOv-U5-lQr" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="XMG-j2-bbS"/>
+                            <constraint firstItem="QOv-U5-lQr" firstAttribute="trailing" secondItem="Bcu-3y-fUS" secondAttribute="trailing" id="n4X-f3-fqR"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.671755725190835" y="374.64788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="app_logo" width="344" height="500"/>
+    </resources>
+</document>
